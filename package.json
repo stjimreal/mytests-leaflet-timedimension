@@ -27,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/socib/Leaflet.TimeDimension.git"
+    "url": "git://github.com/stjimreal/mytests-leaflet-timedimension.git"
   },
   "dependencies": {
     "iso8601-js-period": "^0.2.1",
