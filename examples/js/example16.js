@@ -1,3 +1,8 @@
+/*
+ * @Date: 2022-04-17 22:50:49
+ * @LastEditors: LIULIJING
+ * @LastEditTime: 2022-04-21 00:22:20
+ */
 var startDate = new Date();
 startDate.setUTCHours(0, 0, 0, 0);
 
@@ -13,8 +18,9 @@ var map = L.map('map', {
     },
     timeDimension: true,
     timeDimensionOptions: {
-        timeInterval: startDate.toISOString() + "/PT72H",
-        period: "PT3H"
+        // timeInterval: startDate.toISOString() + "/PT72H",
+        timeInterval: "2017-01-01/2021-10-30",
+        period: "P1DT"
     },
     center: [39.3, 2.9]
 });

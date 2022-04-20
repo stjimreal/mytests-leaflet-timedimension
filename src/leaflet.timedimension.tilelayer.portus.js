@@ -186,7 +186,7 @@ L.TimeDimension.Layer.TileLayer.Portus = L.TimeDimension.Layer.TileLayer.extend(
         var options = this._baseLayer.options;
         var url = this._baseLayer.getURL();
 
-        var startDate = new Date();
+        var startDate = new Date(time);
         startDate.setUTCHours(0, 0, 0, 0);
         var startDateFormatted = startDate.toISOString().substring(0,10).replace(/-/g, '');
         url = url.replace('{d}', startDateFormatted);
